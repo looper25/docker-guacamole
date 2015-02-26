@@ -1,9 +1,12 @@
 <user-mapping>
-	<authorize username="test1" password="test1">
-		<connection name="Test1">
+	<authorize username="webuser" password="password">
+		<connection name="workstation">
 			<protocol>rdp</protocol>
-			<param name="hostname">127.0.0.1</param>
+			<param name="hostname">10.1.1.100</param>
 			<param name="port">3389</param>
+			<param name="username">Administrator</param>
+			<param name="password">mypassword</param>
+
 		</connection>
 	</authorize>
 </user-mapping>

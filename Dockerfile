@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Boggart <github.com/Boggart>
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && RUN apt-get install -y \
+RUN apt-get update && apt-get install -y \
   supervisor wget make tomcat7 \
   libcairo2-dev libpng12-dev uuid libossp-uuid-dev \
   libfreerdp-dev freerdp-x11 libpango-1.0-0 libpango1.0-dev \
